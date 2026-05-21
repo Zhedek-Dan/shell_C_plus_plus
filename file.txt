@@ -1,0 +1,20 @@
+program {
+    int x, y = 5;
+    int a = 10;
+    real z = 3.14;
+    x = y + a;
+    z = z * 2.0;
+    if (x > 0 and y < 10)
+        write(x);
+    else
+        write(z);
+    do {
+        x = x - 1;
+        continue;
+    } while (x > 0);
+    while (y != 0) {
+        y = y - 1;
+    }
+    read(a);
+    write(x, y, z);
+}
